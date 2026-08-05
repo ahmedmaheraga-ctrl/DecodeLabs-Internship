@@ -1,0 +1,33 @@
+responses = {
+    "hello": "Hello! How can I assist you today?",
+    "hi": "Hi there! What can I do for you?",
+    "hey": "Hey! How's it going?",
+    "how are you": "I'm just a chatbot, but I'm here to help you!", 
+    "who are you": "I am a rule-based AI chatbot designed to answer your questions.",
+    "help": "Try saying 'hello', asking 'what is your name', or typing 'exit' to leave.",
+    "bye": "Goodbye! Have a great day!",
+    "exit": "Goodbye! Have a great day!",
+    "quit" : "Goodbye! Have a great day!" 
+}
+
+print("==================================================================")
+print("                WELCOME TO RULE-BASED AI CHATBOT                  ")
+print("          Type 'exit', 'bye', or 'quit' to end the chat           ")
+print("==================================================================")
+
+def chatbot():
+    while True:
+        user_input = input("you : ").lower().strip()
+
+        if user_input in ["bye", "exit", "quit"]:
+            print("chatbot : goodbye and have a nice day")
+            break
+
+        if not user_input:
+            continue
+
+        reply = responses.get(user_input, "chatbot : I'm sorry, I don't understand that. Type 'help' for options.")
+        print(f"chatbot : {reply}")
+
+if __name__ == "__main__":
+    chatbot()
