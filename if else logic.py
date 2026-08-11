@@ -1,7 +1,7 @@
-print("="*50)
+print("="*70)
 print("WELCOME TO RULE-BASED AI CHATBOT")
 print("Type 'exit', 'bye', or 'quit' to end the chat")
-print("="*50)
+print("="*70)
 
 while True:
     
