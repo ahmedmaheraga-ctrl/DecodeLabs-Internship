@@ -5,22 +5,25 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
-# generate variables
-iris = load_iris()
-
-x = pd.DataFrame(iris.data, columns=iris.feature_names)
-y = iris.target
-# print project name
-print("="*80)
-print("            project 2. Data classification using AI           ")
-print("="*80)
-
-# print the first 5 rows of the data to confirme every thing is ok
-print(x.head())
-scaler= StandardScaler()
-x_scaled = scaler.fit_transform(x)
 
 def main():
+
+    # generate variables
+    iris = load_iris()
+
+    x = pd.DataFrame(iris.data, columns=iris.feature_names)
+    y = iris.target
+    # print project name
+    print("="*80)
+    print("            project 2. Data classification using AI           ")
+    print("="*80)
+
+    # print the first 5 rows of the data to confirme every thing is ok
+    print(x.head())
+    scaler= StandardScaler()
+    x_scaled = scaler.fit_transform(x)
+
+
     
     x_train, x_test, y_train, y_test = train_test_split(
         x_scaled, y, test_size=0.2, random_state=42, shuffle=True
