@@ -15,9 +15,9 @@ def get_recommendation(user_interests):
         score = 0
         for user_tag in user_tags:
             if user_tag in item["tags"]:
-                score+=1
+                score += 1
 
-        if score>0:
+        if score > 0:
             scored_items.append({"title": item["title"], "score": score})
 
     scored_items.sort(key=lambda x: x["score"], reverse=True) 
@@ -36,7 +36,7 @@ def main():
 
     else:
         for idx, item in enumerate (results, 1):
-            print(f"{idx},{item:['title']}, (Match Score :{item["score"]})")
+            print(f"{idx}. {item['title']} (Match Score: {item['score']})")
 
-if __name__=="__main__":
+if __name__== "__main__":
     main()
