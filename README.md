@@ -83,8 +83,8 @@ Building this project was an immensely enjoyable experience! It provided a hands
 1. Clone the Repository
 
 bash
-git clone https://github.com/ahmedmaheraga-ctrl/Project-2-AI-Data-Classification.git
-cd Project-2-AI-Data-Classification
+git clone https://github.com/ahmedmaheraga-ctrl/Project-2-AI-Data-Classification..git
+cd Project-2-AI-Data-Classification..
 
 2. Install Dependencies
 
@@ -143,8 +143,9 @@ Building this project was an immensely enjoyable experience! It provided a hands
 1. Clone the Repository
 
 bash
-git clone https://github.com/ahmedmaheraga-ctrl/Project-3-AI-Recommendation-Logic.git
-cd Project-3-AI-Recommendation-Logic
+git clone https://github.com/ahmedmaheraga-ctrl/Project-3-AI-Recommendation-Logic..git
+cd Project-3-AI-Recommendation-Logic..
+
 
 2. Run the Script
 
