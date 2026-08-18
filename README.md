@@ -16,19 +16,6 @@ O(1) Intent Lookup with .get(): Replacing lengthy, complex if-else chains with P
 *Language: Python 3.8+
 *Dependencies: Python Standard Library (No external modules required)
 
-🚀 Quick Start
-
-1. Clone the Repository
-
-bash
-git clone https://github.com/ahmedmaheraga-ctrl/Project-1-Rule-Based-AI-Chatbot..git
-cd Project-1-Rule-Based-AI-Chatbot..
-
-2. Run the Chatbot
-
-bash
-python main.py
-
 💻 Example Usage
 
 text
@@ -77,27 +64,6 @@ Building this project was an immensely enjoyable experience! It provided a hands
 *Language: Python 3.8+
 *Libraries: scikit-learn, pandas
 
-
-🚀 Quick Start
-
-1. Clone the Repository
-
-bash
-git clone https://github.com/ahmedmaheraga-ctrl/Project-2-AI-Data-Classification..git
-cd Project-2-AI-Data-Classification..
-
-2. Install Dependencies
-
-bash
-pip install scikit-learn pandas numpy
-
-
-3. Run the Script
-
-bash
-python classifier.py
-
-
 💻 Example Usage
 
 text
@@ -136,22 +102,6 @@ Building this project was an immensely enjoyable experience! It provided a hands
 
 *Language: Python 3.8+
 *Dependencies: Python Standard Library (No external modules required)
-
-
-🚀 Quick Start
-
-1. Clone the Repository
-
-bash
-git clone https://github.com/ahmedmaheraga-ctrl/Project-3-AI-Recommendation-Logic..git
-cd Project-3-AI-Recommendation-Logic..
-
-
-2. Run the Script
-
-bash
-python main.py
-
 
 💻 Example Usage
 
